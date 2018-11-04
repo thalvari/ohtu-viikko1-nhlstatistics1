@@ -1,4 +1,6 @@
-package ohtuesimerkki;
+package ohtuesimerkki.main;
+
+import ohtuesimerkki.Statistics;
 
 public class Main {
     public static void main(String[] args) {

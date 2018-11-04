@@ -1,5 +1,7 @@
 package ohtuesimerkki;
 
+import ohtuesimerkki.main.Player;
+import ohtuesimerkki.main.Reader;
 import org.junit.Before;
 import org.junit.Test;
 

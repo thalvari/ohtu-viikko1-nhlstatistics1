@@ -1,4 +1,4 @@
-package ohtuesimerkki;
+package ohtuesimerkki.main;
 
 public class Player implements Comparable<Player> {
 

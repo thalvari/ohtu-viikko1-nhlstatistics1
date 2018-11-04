@@ -1,5 +1,8 @@
 package ohtuesimerkki;
 
+import ohtuesimerkki.main.Player;
+import ohtuesimerkki.main.Reader;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;

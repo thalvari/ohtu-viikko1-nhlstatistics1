@@ -1,4 +1,4 @@
-package ohtuesimerkki;
+package ohtuesimerkki.main;
 
 import java.net.URL;
 import java.util.ArrayList;
