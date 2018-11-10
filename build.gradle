@@ -31,3 +31,9 @@ jacocoTestReport {
         })
     }
 }
+
+apply plugin: 'checkstyle'
+
+checkstyle {
+    sourceSets = [project.sourceSets.main]
+}

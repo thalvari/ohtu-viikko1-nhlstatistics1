@@ -7,6 +7,10 @@ import java.util.Scanner;
 
 public class PlayerReader implements Reader {
 
+    static final int N_PARTS = 3;
+    static final int PART_GOALS = 3;
+    static final int PART_ASSISTS = 4;
+
     private Scanner scanner;
 
     public PlayerReader(String pageUrl) {
@@ -25,8 +29,8 @@ public class PlayerReader implements Reader {
         while (scanner.hasNextLine()) {
             String[] parts = scanner.nextLine().split(";");
 
-            if (parts.length > 3) {
-                players.add(new Player(parts[0].trim(), parts[1], extractInt(parts[3]), extractInt(parts[4])));
+            if (parts.length > N_PARTS) {
+                players.add(new Player(parts[0].trim(), parts[1], extractInt(parts[PART_GOALS]), extractInt(parts[PART_ASSISTS])));
             }
         }
 
